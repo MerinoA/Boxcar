@@ -1,3 +1,5 @@
+[Home](home)
+
 ## Commands
 
 A command in Boxcar is essentially a set of instructions that Boxcar will execute in order. Each instruction we will refer to as an Action.
