@@ -25,10 +25,15 @@ Buttons are the building blocks of the Boxcar UI. Buttons are associated to eith
 
 	
 - Keybind
-	+ Keybind is a value that maps the keybind system to the button command execution. See [keybinds](keybinds)
+	+ Keybind is a value that maps the keybind system to the button command execution. See [keybinds](keybind)
 	
 - Keybind Priority
 	+ If multiple buttons have conflicting keybinds. They keybind priorty will dictate the order in which the commands will be executed in ascending order.
 	
 - Command
 	+ This the heart of the boxcar system. See [commands](commands)
+	
+### Reordering Buttons
+Right click a button an select Reorder.
+
+Use drag and drop to place the buttons in the order you desire and click Save.
