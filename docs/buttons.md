@@ -20,6 +20,9 @@ Buttons are the building blocks of the Boxcar UI. Buttons are associated to eith
 	
 - Audio Trigger
 	+ An audio trigger is a text to speach or wav file name that will play when a timer expires.
+	+ You can supply your own .wav files by placing them in the c:/ProgramData/Boxcar directory
+		* Do not include .wav extension in the input when setting if you plan to use your own wav files.
+
 	
 - Keybind
 	+ Keybind is a value that maps the keybind system to the button command execution. See [keybinds](keybinds)
