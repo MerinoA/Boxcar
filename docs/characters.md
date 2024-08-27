@@ -23,7 +23,7 @@ Boxcar has no knowledge of the inner workings of the game or application you are
 	
 - Keybind
 	+ A keybind that will swap to this game client.
-	+ Refer to [keybinds](keybinds) for syntax.
+	+ Refer to [keybinds](keybind) for syntax.
 	
 ## Requirements
  - Character names must be unique.
