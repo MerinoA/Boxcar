@@ -6,7 +6,7 @@ Keybinds can be set for a button via the Edit button screen. Boxcar implements a
 
 
 ### Syntax
-keybinds do not share the same syntax as Actions within a [command](commmands). 
+keybinds do not share the same syntax as Actions within a [command](commands). 
 
 \<keypress>
 OR
