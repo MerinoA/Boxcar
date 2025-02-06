@@ -1,4 +1,4 @@
-[Home](home)
+[Home](boxcar://home)
 ## Auto Launch
 
 Auto Launch will launch a game client for each enable character.
@@ -32,7 +32,7 @@ These strings will be replaced with the username and password stored for that ch
 
 ### Auto Launch Command
 
-Once a process is launched and the window is created the Launch command will be executed. The launch command uses the same syntax as the game [commands](commands).
+Once a process is launched and the window is created the Launch command will be executed. The launch command uses the same syntax as the game [commands](boxcar://commands).
 
 There are 2 custom Actions that can be used in the launch command that are only valid in auto launch.
 

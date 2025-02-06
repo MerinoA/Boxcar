@@ -1,4 +1,4 @@
-[Home](home)
+[Home](boxcar://home)
 
 ## Commands
 
@@ -30,7 +30,7 @@ An Action can have several components. The first component is always the action 
 - Key
 	+ The most basic keyboard input command.
 	+ The first input is a **keypress**
-		* See [Supported keys](keypress) for all the valid input formats.
+		* See [Supported keys](boxcar://keypress) for all the valid input formats.
 		* Any *keypress* can have a **x\<integer>** appended to it to make Boxcar spam that key n number of times. Example **key.1x3** will press the 1 key 3 times.
 	+ The second input is a hold duration and IS optional.
 		* This is a amount of milliseconds to hold the key down.
@@ -43,6 +43,30 @@ An Action can have several components. The first component is always the action 
 			- Shift
 			- Alt
 			- Ctrl
+- LMouse
+	+ The first in input is a x-y cordinate. Example 600-700 for x = 600 and y = 700
+	+ The second input is an optional is a delay duration and it follows the delay patter throughout boxcar and is applied before and after the click - defaults to 200
+
+- RMouse
+	+ The first in input is a x-y cordinate. Example 600-700 for x = 600 and y = 700
+	+ The second input is an optional is a delay duration and it follows the delay patter throughout boxcar and is applied before and after the click - defaults to 200
+
+ - MouseMove
+	+ The first in input is a x-y cordinate. Example 600-700 for x = 600 and y = 700 OR "restore" to move to the position cached by the previous move command.
+	+ A MouseMove should call restore before calling another mouse move.
+	+ example mousemove.600-700|delay.1000|mousemove.restore
+
+ - MouseClick
+	+ The first is either left or right for the corresponding mouse button
+	+ The second input is an optional hold duration for holding the down click before releasing. In most cases you will not need this option.
+	+ example mousemove.600-700|delay.200|mouseclick.left|delay.100|mousemove.restore
+
+- Type
+	+ The only input is any text following the 'type.' This will type until the next |
+	+ example: type.Hello World, how are you doing today?
+
+- All
+	+ The only input is an optional character category type. Example. all.dps or all.healer. Categories can be set on the character tab.
 			
 
 ### Milliseconds

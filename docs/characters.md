@@ -1,7 +1,7 @@
-[Home](home)
+[Home](boxcar://home)
 
 # Characters
-A character is an entity in Boxcar that has 12 associated command [buttons](buttons) and a one character button that can be rendered in Boxcar [windows](windows). 
+A character is an entity in Boxcar that has 12 associated command [buttons](boxcar://buttons) and a one character button that can be rendered in Boxcar [windows](boxcar://windows). 
 
 A character can be associated to a game instance via the Game Clients tab and sync features. 
 
@@ -23,7 +23,11 @@ Boxcar has no knowledge of the inner workings of the game or application you are
 	
 - Keybind
 	+ A keybind that will swap to this game client.
-	+ Refer to [keybinds](keybind) for syntax.
+	+ Refer to [keybinds](boxcar://keybind) for syntax.
+
+- Category
+	+ A string used to target groups of characters with the 'all' command type.
+	+ Refer to [commands](boxcar://commands).
 	
 ## Requirements
  - Character names must be unique.
