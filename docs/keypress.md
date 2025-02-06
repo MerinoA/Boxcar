@@ -1,10 +1,10 @@
-[Home](home)
+[Home](boxcar://home)
 
 ## Keypress
 
 A Keypress is a component of a command within Boxcar. A keypress is a string that maps to boxcar making a simulated keyboard input.
 
-Keypress is used in the [command](commands) syntax and for the [keybind](keybind) mapping.
+Keypress is used in the [command](boxcar://commands) syntax and for the [keybind](boxcar://keybind) mapping.
 
 Replacing \<keypress> in command examples with a supported key below is how one uses keypresses in the Boxcar command syntax.
 
@@ -96,3 +96,4 @@ Example:
 - \[
 - \] 
 - \'
+- space

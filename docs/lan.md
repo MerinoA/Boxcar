@@ -1,16 +1,19 @@
-[Home](home)
+[Home](boxcar://home)
 
-## LAN
+## Local Server
 
+LAN support VIA UDP:
 
-LAN support:
-
+This method is simplier but may not work if the network setup is not correcty
 
 Windows settings must be correct and computers need to be discover-able.
 Boxcar needs to be given firewall access to private network.
 
 The LAN uses UDP broadcasting over a specified port to communicate between local computers. Computers with the specified LAN name will act on messages received for that LAN name.
 
+Local Server VIA TCP:
+
+More reliable but requires entering IP of the host PC that will act as the hub for distributing the commands. 
 
 Command:
 send:LAN_NAME:COMMAND

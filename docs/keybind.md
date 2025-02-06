@@ -1,4 +1,4 @@
-[Home](home)
+[Home](boxcar://home)
 
 ## Keybinds
 
@@ -6,14 +6,14 @@ Keybinds can be set for a button via the Edit button screen. Boxcar implements a
 
 
 ### Syntax
-keybinds do not share the same syntax as Actions within a [command](commands). 
+keybinds do not share the same syntax as Actions within a [command](boxcar://commands). 
 
 \<keypress>
 OR
 \<mod>+\<keypress>
 
 
-The keypress can be found from the supported key [list](keypress). Keybinds currently only support 1 key modification.
+The keypress can be found from the supported key [list](boxcar://keypress). Keybinds currently only support 1 key modification.
 
 Supported Mods:
 - shift

@@ -1,8 +1,8 @@
-[Home](home)
+[Home](boxcar://home)
 
 ## Buttons
 
-Buttons are the building blocks of the Boxcar UI. Buttons are associated to either a [hotbar](hotbars) or a [character](characters).
+Buttons are the building blocks of the Boxcar UI. Buttons are associated to either a [hotbar](boxcar://hotbars) or a [character](boxcar://characters).
 
 ### Properties
 
@@ -25,13 +25,13 @@ Buttons are the building blocks of the Boxcar UI. Buttons are associated to eith
 
 	
 - Keybind
-	+ Keybind is a value that maps the keybind system to the button command execution. See [keybinds](keybind)
+	+ Keybind is a value that maps the keybind system to the button command execution. See [keybinds](boxcar://keybind)
 	
 - Keybind Priority
 	+ If multiple buttons have conflicting keybinds. They keybind priorty will dictate the order in which the commands will be executed in ascending order.
 	
 - Command
-	+ This the heart of the boxcar system. See [commands](commands)
+	+ This the heart of the boxcar system. See [commands](boxcar://commands)
 	
 ### Reordering Buttons
 Right click a button an select Reorder.
