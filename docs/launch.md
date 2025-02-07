@@ -1,49 +1,58 @@
-[Home](boxcar://home)
-## Auto Launch
+﻿🏠 [Home](boxcar://home)
 
-Auto Launch will launch a game client for each enable character.
+# 🚀 Auto Launch
 
-The game client is launched by a defined path to an executable file. 
+Auto Launch will launch a game client for each enabled character.
 
+The game client is launched by a defined path to an executable file.
+This is supported by any game that can have its executable file directly invoked.
 
+The system will wait for the process’s main window to be created. 
 
+In addition to defining the executable to launch you can also define args to be passed when that executable is launched. For example the everquest game takes the patchme argument.
 
-This will launch a game client. The system will wait for the processes main window to be created. There is also a arguments field that can be edited and this will be passed as arguments when invoking the executable.
+---
 
-### Executable
+## 📄 Path to Executable
 
-The executable is the game executable that you want to launch. We will use everquest as an example.
+The executable is the game's exe file that you want to launch. We will use **EverQuest** as an example.
 
-In the everquest directory you will find the eqgame.exe file. You can get the path to executable by right clicking the file and selecting **copy as path**.
+- In the EverQuest directory, you will find the `eqgame.exe` file.  
+  You can get the path to the executable by right-clicking the file and selecting **Copy as Path**.
 
-![executable](./images/executable.png)
+- Paste this path into the **Path to Executable** field.  
+  **Do not** include any quote marks.
 
-You can then paste this path into the Path to Executable field. Do not include any quote marks.
+---
 
-![executable](./images/launchSettings.png)
+## 🔧 Executable Args
 
-### Executable Args
+Some executables support passing command line arguments when being invoked. This field supports providing that text.
 
-Boxcar will invoke the executable and will pass the string provided in executable args as the argument to the invocation.
+There are 2 special strings that can be used in the arguments field: `[username]` and `[password]`.  
+These strings will be replaced with the username and password stored for the character being launched.
 
-There are 2 special strings that can be used in the arguments field. [username] and [password]. Include the bracket.
+---
 
-These strings will be replaced with the username and password stored for that character.
+## ⚡ Auto Launch Command
 
-### Auto Launch Command
+Once a process is launched and the window is created, the **Launch Command** will be executed. The launch command uses the same syntax as the game [commands](boxcar://commands).
 
-Once a process is launched and the window is created the Launch command will be executed. The launch command uses the same syntax as the game [commands](boxcar://commands).
+There are 2 custom Actions that can be used in the launch command that are only valid in auto launch:
 
-There are 2 custom Actions that can be used in the launch command that are only valid in auto launch.
+- **password**  
+  This will type the password associated with that character.
 
-- password
-	+ This will type the password associated to that character
-	
-- username
-	+ This will type the username associated to that character
+- **username**  
+  This will type the username associated with that character.
 
 Example:
-```
-delay.5000|username|key.tab|delay.1000|password|key.enter|delay.5000|key.enter
+```js
+/**
+The below command will wait 5 seconds after launch, then type the password
+then hit the enter key, then wait 5 seconds then hit the enter key again.
+**/
+
+delay.5000|password|key.enter|delay.5000|key.enter
 ```
 

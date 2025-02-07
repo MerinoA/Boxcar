@@ -1,32 +1,34 @@
-[Home](boxcar://home)
+﻿🏠 [Home](boxcar://home)
 
-## Keypress
+# ⌨️ Keypress
 
-A Keypress is a component of a command within Boxcar. A keypress is a string that maps to boxcar making a simulated keyboard input.
+A **Keypress** is a component of a command within Boxcar. It is a string that maps to Boxcar, simulating a **keyboard input**.
 
-Keypress is used in the [command](boxcar://commands) syntax and for the [keybind](boxcar://keybind) mapping.
+Keypresses are used in both the **[command](boxcar://commands)** syntax and for **[keybind](boxcar://keybind)** mapping.
 
-Replacing \<keypress> in command examples with a supported key below is how one uses keypresses in the Boxcar command syntax.
+To use a keypress in the Boxcar command syntax, replace <keypress> with any of the supported keys listed below. 
 
-Example: 
-- key.\<keypress> is an key action in the boxcar command syntax. To have the 1 key pressed. It would be written key.1
+> **Example:**  
+> key.<keypress> is a key action in the Boxcar command syntax.  
+> To press the 1 key, it would be written as: key.1
 
+---
 
-### Supported Keys 
+## 🔑 Supported Keys
 
-#### Numbers 
+### **🔢 Numbers**
 - 1
 - 2
 - 3
 - 4
 - 5
-- 6 
-- 7 
+- 6
+- 7
 - 8
-- 9 
+- 9
 - 0
 
-#### Alpha
+### **🔤 Alpha**
 - a
 - b
 - c
@@ -37,7 +39,7 @@ Example:
 - h
 - i
 - j
-- k 
+- k
 - l
 - m
 - n
@@ -54,46 +56,25 @@ Example:
 - y
 - z
 
-#### Other
-- \-
-- =
-- left
-- right
-- up
-- down
-- numpad0
-- numpad1
-- numpad2
-- numpad3
-- numpad4
-- numpad5
-- numpad6
-- numpad7
-- numpad8
-- numpad9
-- pageup
-- pagedown
-- f1
-- f2
-- f3
-- f4
-- f5
-- f6
-- f7
-- f8
-- f9
-- f10
-- f11
-- f12
-- period
-- enter
-- tab
-- ,
-- /
-- ;
-- `
-- \\
-- \[
-- \] 
-- \'
-- space
+### **🔸 Other Keys**
+- **-**
+- **=**
+- **left**
+- **right**
+- **up**
+- **down**
+- **numpad0** to **numpad9**
+- **pageup**
+- **pagedown**
+- **f1** to **f12**
+- **period** - (for . because the . character is a separator in the action syntax)
+- **enter**
+- **tab**
+- **,** (comma)
+- **/** (forwardslash)
+- **;**
+- **`** (backtick)
+- **\\** (backslash)
+- **[** and **]**
+- **'** (apostrophe)
+- **space**
