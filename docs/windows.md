@@ -1,30 +1,21 @@
-[Home](boxcar://home)
+﻿🏠 [Home](boxcar://home)
 
-## Windows
+# 🖥️ Windows
 
-Windows in boxcar are the UI element that contains the buttons in boxcar and is rendered as a top level window within the windows OS.
+Windows in Boxcar are the UI elements that contain the buttons and are rendered as a top-level window within the Windows OS.
 
-## Properties
+---
 
-- Enabled
-	+ Disables the window and its children from being rendered or respond to keybinds.
-	
-- Name
-	+ The identifier of the window
-	
-- Layout
-	+ Vertical or horizontal layout of children
+## ⚙️ Properties
 
+- **Enabled**  
+  - Disables the window and its children from being rendered or responding to keybinds.
 
-## UI Customization
+- **Name**  
+  - The identifier of the window.
 
-Global UI customization
+- **Layout**  
+  - Vertical or horizontal layout of children.
 
-- Background color
-- Border color
-- Active opacity
-- Inactive opacity
-- Corner radius
-- Fixed button size
-
-
+- **Scale**  
+  - Scales the individual window and its child elements.
