@@ -10,6 +10,7 @@
 - 🎭 [Characters](boxcar://characters)
 - 🎛️ [Hotbars](boxcar://hotbars)
 - 🔘 [Buttons](boxcar://buttons)
+- 🎒 [Loadouts](boxcar://loadouts)
 - ⚡ [Commands](boxcar://commands)
 - ⌨️ [Keybinds](boxcar://keybind)
 - 🎹 [Supported Keys](boxcar://keypress)
