@@ -28,8 +28,8 @@ Characters can be associated with a **game instance** via the **Game Clients** t
   - A **keybinding** that will invoke the **character button** 
   - See [keybind syntax](boxcar://keybind) for details.
 
-- **Category**  
-  - A **string identifier** used to target groups of characters with the `'all'` command type.  
+- **Categories**  
+  - A **string identifier** used to target groups of characters with the `'all'` command type. Supports comma separated list to associate a character with multiple categories. `dps,ranged` as an example.
   - See [commands](boxcar://commands) for more details.
 
 ---

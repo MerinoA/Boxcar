@@ -8,11 +8,11 @@ Keybinds can be set for a button via the **Edit button** screen. Boxcar implemen
 
 ## 📝 Syntax
 
-Keybinds do not share the same syntax as Actions within a [command](boxcar://commands).
+Keybinds share the same syntax as the mod and key Actions within a [command](boxcar://commands).
 
-- `<keypress>`
+- `mod.shift+ctrl+alt.key.<keypress>`
 - **OR**
-- `<mod>+<mod>+<keypress>`
+- `key.<keypress>`
 
 The `<keypress>` can be found from the supported key [list](boxcar://keypress).
 
@@ -23,15 +23,15 @@ The `<keypress>` can be found from the supported key [list](boxcar://keypress).
 
 Example:
 ```js
-numpad1
+key.numpad1
 
 // OR
 
-shift+numpad1
+mod.shift.key.numpad1
 
 // OR
 
-shift+alt+1
+mod.shift+alt.key.1
 ```
 
 ---

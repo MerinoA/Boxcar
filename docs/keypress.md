@@ -66,7 +66,7 @@ To use a keypress in the Boxcar command syntax, replace <keypress> with any of t
 - **numpad0** to **numpad9**
 - **pageup**
 - **pagedown**
-- **f1** to **f12**
+- **f1** to **f24**
 - **period** - (for . because the . character is a separator in the action syntax)
 - **enter**
 - **tab**

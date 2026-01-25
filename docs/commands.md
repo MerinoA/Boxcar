@@ -67,7 +67,11 @@ An **Action** can have several components. The first component is always the **a
   - **Valid Mods:** `Shift`, `Alt`, `Ctrl`  
   - **Example:** 
     ```
-    mod.shift+key.1.100 // will hold the Shift key and press the 1 key for 100ms.
+    mod.shift.key.1.100 // will hold the Shift key and press the 1 key for 100ms.
+  
+    OR
+    
+    mod.shift.1.100 // will hold the Shift key and press the 1 key for 100ms.
     ``` 
 
 - **LMouse**  
@@ -158,14 +162,14 @@ key.1.500-1000
     change to character 4 and press the left key and hold it for 100 ms
 **/
 
-character1|key.1|delay.2000-4000|character2|mod.shift+alt.2|character3|lmouse.659-745.200|character.4|key.left.100
+character1|key.1|delay.2000-4000|character2|mod.shift+alt.key.2|character3|lmouse.659-745.200|character.4|key.left.100
 
 /**
     If these characters were all on seperate pcs the command would need to be
     modified to send the command portions to specific pc identifiers
 **/
 
-send:pc1:character1|key.1:pc2:character2|mod.shift.alt.2:pc3:character3|lmouse.659-745.200:pc4:character4|key.left.100
+send:pc1:character1|key.1:pc2:character2|mod.shift+alt.key.2:pc3:character3|lmouse.659-745.200:pc4:character4|key.left.100
 
 ```
 

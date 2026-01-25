@@ -2,7 +2,7 @@
 
 # 🎛️ Hotbars
 
-Hotbars are a collection of 12 [buttons](boxcar://buttons) that are **not** associated with a specific character.
+Hotbars are a collection of 12 [buttons](boxcar://buttons) that are **not** explicitly associated with a specific character by default.
 
 ---
 

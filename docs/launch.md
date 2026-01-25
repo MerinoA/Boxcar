@@ -56,3 +56,7 @@ then hit the enter key, then wait 5 seconds then hit the enter key again.
 delay.5000|password|key.enter|delay.5000|key.enter
 ```
 
+## Character specific auto launch.
+
+In the character edit screen you can define character specific auto launch settings. This is useful if the game you are playing require different install locations etc. Or for a specific character you want to do a extra delay in a command. etc.
+

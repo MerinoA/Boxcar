@@ -19,3 +19,8 @@ Windows in Boxcar are the UI elements that contain the buttons and are rendered 
 
 - **Scale**  
   - Scales the individual window and its child elements.
+
+
+## Locking
+
+Right clicking the window body will bring up a lock and unlock context menu. Locking the window prevents it from being moved.
